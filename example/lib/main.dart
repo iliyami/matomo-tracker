@@ -159,7 +159,7 @@ class _OtherPageState extends State<OtherPage> {
       body: Center(
         child: _loading
             ? const CircularProgressIndicator()
-            : TraceableWidget(
+            : TraceablePageWidget(
                 path: '/otherpage',
                 actionName: 'Other Page',
                 performanceInfo: PerformanceInfo(

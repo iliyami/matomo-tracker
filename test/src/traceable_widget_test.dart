@@ -20,14 +20,14 @@ void main() {
 
     await tester.pumpWidget(
       const TestableApp(
-        child: TraceableWidget(
+        child: TraceablePageWidget(
           actionName: 'test',
           child: SizedBox(),
         ),
       ),
     );
 
-    final traceableWidgetFinder = find.byType(TraceableWidget);
+    final traceableWidgetFinder = find.byType(TraceablePageWidget);
 
     expect(traceableWidgetFinder, findsOneWidget);
     expect(matomoTracker.queue.length, queueLength + 1);

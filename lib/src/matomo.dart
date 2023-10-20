@@ -886,7 +886,31 @@ class MatomoTracker {
     );
   }
 
-  void _track(MatomoAction action) => queue.add(action.toMap(this));
+  /// Tracks a custom event.
+  ///
+  /// Use [trackCustomEvent] to track a custom action such as a form.
+  void trackCustomAction({
+    String? actionName,
+    PerformanceInfo? performanceInfo,
+    String? pvId,
+    Map<String, String>? customActions,
+  }) =>
+      _track(
+        MatomoAction(
+          action: actionName,
+          pvId: pvId,
+          performanceInfo: performanceInfo,
+        ),
+        customActions: customActions,
+      );
+
+  void _track(MatomoAction action, {Map<String, String>? customActions}) {
+    final mappedActions = action.toMap(this);
+    if (customActions != null) {
+      mappedActions.addAll(customActions);
+    }
+    queue.add(mappedActions);
+  }
 
   void _ping() {
     final lastPageView = _lastPageView;
