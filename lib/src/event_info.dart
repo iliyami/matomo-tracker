@@ -1,4 +1,4 @@
-import 'package:matomo_tracker/src/assert.dart';
+import 'package:matomo_tracker_enhanced/src/assert.dart';
 
 /// Used to add context to the event send.
 ///

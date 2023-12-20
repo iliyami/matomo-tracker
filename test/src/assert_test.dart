@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/assert.dart';
+import 'package:matomo_tracker_enhanced/src/assert.dart';
 
 void main() {
   group('assertStringIsFilled', () {

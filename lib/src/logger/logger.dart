@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:developer' as dev;
 
 import 'package:clock/clock.dart';
-import 'package:matomo_tracker/src/logger/log_record.dart';
+import 'package:matomo_tracker_enhanced/src/logger/log_record.dart';
 
 const _defaultLevel = Level.info;
 

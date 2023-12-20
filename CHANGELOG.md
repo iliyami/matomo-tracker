@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.2.2]
+
+* fix: fixed CHANGELOG versioning
+
+## [4.2.1]
+
+* feat: add custom actions
+
+
 ## [4.1.1]
 
 * Bump device_info_plus from 9.0.3 to 10.0.0 by @dependabot in https://github.com/Floating-Dartists/matomo-tracker/pull/123

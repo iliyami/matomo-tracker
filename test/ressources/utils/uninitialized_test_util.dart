@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/exceptions.dart';
-import 'package:matomo_tracker/src/matomo.dart';
+import 'package:matomo_tracker_enhanced/src/exceptions.dart';
+import 'package:matomo_tracker_enhanced/src/matomo.dart';
 import 'package:meta/meta.dart';
 
 typedef TrackerCallback = Future<void> Function(MatomoTracker tracker);

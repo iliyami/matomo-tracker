@@ -1,14 +1,14 @@
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:matomo_tracker/src/local_storage/local_storage.dart';
-import 'package:matomo_tracker/src/logger/logger.dart';
-import 'package:matomo_tracker/src/matomo.dart';
-import 'package:matomo_tracker/src/matomo_action.dart';
-import 'package:matomo_tracker/src/platform_info/platform_info.dart';
-import 'package:matomo_tracker/src/session.dart';
-import 'package:matomo_tracker/src/tracking_order_item.dart';
-import 'package:matomo_tracker/src/visitor.dart';
+import 'package:matomo_tracker_enhanced/src/local_storage/local_storage.dart';
+import 'package:matomo_tracker_enhanced/src/logger/logger.dart';
+import 'package:matomo_tracker_enhanced/src/matomo.dart';
+import 'package:matomo_tracker_enhanced/src/matomo_action.dart';
+import 'package:matomo_tracker_enhanced/src/platform_info/platform_info.dart';
+import 'package:matomo_tracker_enhanced/src/session.dart';
+import 'package:matomo_tracker_enhanced/src/tracking_order_item.dart';
+import 'package:matomo_tracker_enhanced/src/visitor.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/campaign.dart';
+import 'package:matomo_tracker_enhanced/src/campaign.dart';
 
 import '../ressources/mock/data.dart';
 

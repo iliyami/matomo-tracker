@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/session.dart';
+import 'package:matomo_tracker_enhanced/src/session.dart';
 
 import '../ressources/mock/data.dart';
 

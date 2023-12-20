@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:matomo_tracker/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
 
 /// Wrapper around [TraceableClientMixin] to easily track a [child] widget.
 class TraceablePageWidget extends StatefulWidget {

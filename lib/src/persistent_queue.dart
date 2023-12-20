@@ -4,8 +4,8 @@ import 'dart:convert';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/foundation.dart';
-import 'package:matomo_tracker/src/dispatch_settings.dart';
-import 'package:matomo_tracker/src/local_storage/local_storage.dart';
+import 'package:matomo_tracker_enhanced/src/dispatch_settings.dart';
+import 'package:matomo_tracker_enhanced/src/local_storage/local_storage.dart';
 
 class PersistentQueue extends DelegatingQueue<Map<String, String>> {
   PersistentQueue._(this._storage, Queue<Map<String, String>> base)

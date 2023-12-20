@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/content.dart';
-import 'package:matomo_tracker/src/event_info.dart';
-import 'package:matomo_tracker/src/exceptions.dart';
-import 'package:matomo_tracker/src/matomo.dart';
+import 'package:matomo_tracker_enhanced/src/content.dart';
+import 'package:matomo_tracker_enhanced/src/event_info.dart';
+import 'package:matomo_tracker_enhanced/src/exceptions.dart';
+import 'package:matomo_tracker_enhanced/src/matomo.dart';
 import 'package:mocktail/mocktail.dart';
 
 import '../ressources/mock/data.dart';

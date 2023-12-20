@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/matomo_dispatcher.dart';
+import 'package:matomo_tracker_enhanced/src/matomo_dispatcher.dart';
 import 'package:mocktail/mocktail.dart';
 
 import '../ressources/mock/data.dart';

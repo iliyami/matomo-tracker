@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/exceptions.dart';
+import 'package:matomo_tracker_enhanced/src/exceptions.dart';
 
 void main() {
   group('MatomoException', () {

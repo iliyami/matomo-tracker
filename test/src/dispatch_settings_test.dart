@@ -1,8 +1,8 @@
 import 'package:clock/clock.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/dispatch_settings.dart';
-import 'package:matomo_tracker/src/matomo_action.dart';
+import 'package:matomo_tracker_enhanced/src/dispatch_settings.dart';
+import 'package:matomo_tracker_enhanced/src/matomo_action.dart';
 import 'package:mocktail/mocktail.dart';
 import '../ressources/mock/data.dart';
 import '../ressources/mock/mock.dart';

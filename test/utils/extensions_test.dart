@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/utils/extensions.dart';
+import 'package:matomo_tracker_enhanced/utils/extensions.dart';
 
 void main() {
   group('StringExtensions', () {

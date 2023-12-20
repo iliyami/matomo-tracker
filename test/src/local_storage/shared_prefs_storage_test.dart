@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/local_storage/shared_prefs_storage.dart';
+import 'package:matomo_tracker_enhanced/src/local_storage/shared_prefs_storage.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

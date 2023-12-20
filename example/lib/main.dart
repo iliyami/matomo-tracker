@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:matomo_tracker/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // See the docker folder for instructions on how to get a

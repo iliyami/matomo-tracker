@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/utils/random_alpha_numeric.dart';
+import 'package:matomo_tracker_enhanced/utils/random_alpha_numeric.dart';
 
 void main() {
   test('test randomAlphaNumeric returns string with correct length', () {

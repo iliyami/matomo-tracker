@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:matomo_tracker/matomo_tracker.dart';
-import 'package:matomo_tracker/utils/random_alpha_numeric.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/utils/random_alpha_numeric.dart';
 
 final matomoObserver = RouteObserver<ModalRoute<void>>();
 

@@ -3,8 +3,8 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:clock/clock.dart';
-import 'package:matomo_tracker/matomo_tracker.dart';
-import 'package:matomo_tracker/utils/extensions.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/utils/extensions.dart';
 
 class MatomoAction {
   MatomoAction({

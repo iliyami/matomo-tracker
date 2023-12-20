@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:matomo_tracker/src/local_storage/local_storage.dart';
+import 'package:matomo_tracker_enhanced/src/local_storage/local_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPrefsStorage implements LocalStorage {

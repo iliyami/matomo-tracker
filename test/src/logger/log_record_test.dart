@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/logger/log_record.dart';
+import 'package:matomo_tracker_enhanced/src/logger/log_record.dart';
 
 void main() {
   group('LogRecord', () {

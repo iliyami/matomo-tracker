@@ -1,5 +1,5 @@
-import 'package:matomo_tracker/matomo_tracker.dart';
-import 'package:matomo_tracker/src/platform_info/platform_info.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/src/platform_info/platform_info.dart';
 
 import '../mock/data.dart';
 import '../mock/mock.dart';

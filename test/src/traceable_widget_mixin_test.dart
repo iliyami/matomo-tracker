@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/traceable_widget_mixin.dart';
+import 'package:matomo_tracker_enhanced/src/traceable_widget_mixin.dart';
 
 import '../ressources/utils/get_initialized_mamoto_tracker.dart';
 import '../ressources/utils/matomo_tracker_setup.dart';

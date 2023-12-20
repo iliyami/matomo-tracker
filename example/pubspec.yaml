@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  matomo_tracker:
+  matomo_tracker_enhanced:
     path: ..
   url_launcher: ^6.1.11
 

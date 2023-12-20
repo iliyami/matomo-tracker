@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
 
 import '../ressources/utils/get_initialized_mamoto_tracker.dart';
 import '../ressources/utils/matomo_tracker_setup.dart';

@@ -1,4 +1,4 @@
-import 'package:matomo_tracker/src/local_storage/local_storage.dart';
+import 'package:matomo_tracker_enhanced/src/local_storage/local_storage.dart';
 
 /// A [LocalStorage] implementation that does not store any specific user data.
 ///

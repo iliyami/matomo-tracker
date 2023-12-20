@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/matomo_tracker.dart';
+import 'package:matomo_tracker_enhanced/matomo_tracker.dart';
 import 'package:meta/meta.dart';
 
 import 'get_initialized_mamoto_tracker.dart';

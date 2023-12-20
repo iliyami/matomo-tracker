@@ -1,11 +1,11 @@
 import 'package:clock/clock.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:matomo_tracker/src/campaign.dart';
-import 'package:matomo_tracker/src/content.dart';
-import 'package:matomo_tracker/src/event_info.dart';
-import 'package:matomo_tracker/src/matomo_action.dart';
-import 'package:matomo_tracker/src/performance_info.dart';
+import 'package:matomo_tracker_enhanced/src/campaign.dart';
+import 'package:matomo_tracker_enhanced/src/content.dart';
+import 'package:matomo_tracker_enhanced/src/event_info.dart';
+import 'package:matomo_tracker_enhanced/src/matomo_action.dart';
+import 'package:matomo_tracker_enhanced/src/performance_info.dart';
 import 'package:mocktail/mocktail.dart';
 
 import '../ressources/mock/data.dart';
